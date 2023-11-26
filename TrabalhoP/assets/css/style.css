@@ -1,0 +1,87 @@
+/* Define estilos padrão para todos os elementos na página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define variáveis de cores globais */
+:root {
+    --cor-preto: #000;
+    --cor-branca: #fff;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    height: 120px;
+    background-color: var(--cor-preto);
+    margin-bottom: 100px;
+}
+
+/* Estiliza o cabeçalho e os links dentro dele */
+header, a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+/* Estiliza botões */
+.btns {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+/* Estiliza o contêiner do carrossel */
+#carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estiliza o contêiner do carrossel, os itens e as imagens */
+#carousel-container, .carousel-item, img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+/* Estiliza o carrossel */
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Estiliza os itens do carrossel */
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estiliza botões */
+button {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Estiliza o botão de próximo */
+#next-btn {
+    margin-left: 10px;
+}
+
+/* Estiliza o botão de rolar para o topo */
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
