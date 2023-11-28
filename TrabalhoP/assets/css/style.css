@@ -27,6 +27,34 @@ header, a {
     color: var(--cor-branca);
 }
 
+/*Estiliza o titulo 1*/
+.titulo1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*Estiliza o texto 1*/
+.texto1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/*Estiliza o titulo 2*/
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*Estiliza o texto 2*/
+.texto2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
 /* Estiliza botões */
 .btns {
     display: flex;
@@ -85,3 +113,4 @@ button {
     padding: 10px 15px;
     cursor: pointer;
 }
+
