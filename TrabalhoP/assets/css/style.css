@@ -19,7 +19,7 @@ header {
 }
 
 /* Estiliza o cabeçalho e os links dentro dele */
-header, a {
+header, a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -38,7 +38,15 @@ header, a {
 .texto1{
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
+}
+
+.titex1 {
+    background-color: #dfdfdf;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    opacity: 1.0;
 }
 
 /*Estiliza o titulo 2*/
@@ -52,6 +60,15 @@ header, a {
 .texto2 {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
+}
+
+.titex2 {
+    background-color: #dfdfdf;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    opacity: 1.0;
+    border-radius:30px;
     margin-bottom: 100px;
 }
 
@@ -64,16 +81,19 @@ header, a {
 
 /* Estiliza o contêiner do carrossel */
 #carousel-container {
-    width: 80%;
+ 
     margin: auto;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 /* Estiliza o contêiner do carrossel, os itens e as imagens */
 #carousel-container, .carousel-item, img {
+    width: 70%;
+    height: 90%;
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
@@ -114,3 +134,78 @@ button {
     cursor: pointer;
 }
 
+p {
+    font-size: 22px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#ajuda {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    
+}
+
+.ajuda2 {
+    background-color: #dfdfdf;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    opacity: 1.0;
+    border-radius:30px;
+    margin-bottom: 100px;
+   
+}
+
+.texto-ajuda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--cor-preto);
+}
+
+.cvv, a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--cor-branca);
+}
+
+#cvv{
+    color: var(--cor-preto);
+}
+
+.indice {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/*Responsividade*/
+
+@media screen and(max-width: 2560px) {
+
+/* Estiliza o cabeçalho */
+header {
+    height: 120px;
+    background-color: var(--cor-preto);
+    margin-bottom: 100px;
+}
+
+/* Estiliza o cabeçalho e os links dentro dele */
+header, a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+
+    
+}
+
+}

@@ -3,60 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>???</title>
+    <title>Resgate Interior</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <!-- Menu âncora -->
     <header>
-        <a href="#">Home</a>
-        <a href="#">Informações</a>
-        <a href="#">Gráficos</a>
-        <a href="#">Sobre Nós</a>
+        <a href="#inicio">Início</a>
+        <a href="#carousel-container">Carrossel</a>
+        <a href="#chart-container">Gráficos</a>
+        <a href="#ajuda">Ajuda</a>
     </header>
+    <div id="inicio"></div>
+    <div class="titex1">
+       <div class="titulo1">
+          <h1>Resgate Interior</h1>
+       </div>
 
-    <div class="titulo1">
-        <h1>Luiz</h1>
+       <div class="texto1">
+          <p>Somos uma equipe comprometida em oferecer apoio e orientação para aqueles enfrentando a depressão. Guiados pela empatia, nossa missão é ser um farol de esperança, proporcionando recursos práticos e um ambiente seguro para compartilhar experiências. Nossa equipe inclui profissionais de saúde mental dedicados a criar uma comunidade inclusiva e acolhedora. Valorizamos a singularidade de cada jornada, buscando empoderar indivíduos por meio de informação, aconselhamento online e grupos de apoio. Respeitamos a confidencialidade, garantindo um ambiente livre de julgamentos. </p>
+       </div>
     </div>
 
-    <div class="texto1">
-        <p>a</p>
-    </div>
     <!--Carrocel-->
     <div id="carousel-container">
         <div id="carousel">
             <div class="carousel-item">
-                <img src="" alt="Imagem 1">
+                <img src="assets/img/Foto1.jpg">
             </div>
             <div class="carousel-item">
-                <img src="" alt="Imagem 2">
+                <img src="assets/img/Foto2.png">
             </div>
             <div class="carousel-item">
-                <img src="" alt="Imagem 3">
+                <img src="assets/img/Foto3.jpg">
             </div>
-            <!-- Adicione mais itens conforme necessário -->
+            <div class="carousel-item">
+                <img src="assets/img/Foto4.jpg">
+            </div>
         </div>
     </div>
 
-    
     <div class="btns">
         <button id="prev-btn" onclick="prevSlide()">&#9665; Anterior</button>
         <button id="next-btn" onclick="nextSlide()">Próximo &#9655;</button>
     </div>
-    
+
+    <div class="titex2">
     <div class="titulo2">
-        <h1>2222</h1>
+        <h1>Depressão</h1>
     </div>
 
     <div class="texto2">
-        <p>1111</p>
+        <p>A depressão é um transtorno mental caracterizado por uma persistente sensação de tristeza, falta de interesse ou prazer em atividades cotidianas. Pode afetar a maneira como uma pessoa pensa, sente e lida com atividades diárias. Os sintomas da depressão podem variar, mas geralmente incluem mudanças no sono e no apetite, fadiga, sentimentos de desesperança, dificuldade de concentração e pensamentos autodepreciativos.<br>É importante reconhecer que a depressão não é simplesmente um estado de tristeza passageira, mas uma condição médica séria que requer atenção e tratamento. Pode impactar significativamente a qualidade de vida e, em alguns casos, levar a complicações graves.</p>
     </div>
-
+    </div>
+    <div class="indice">
+        <h1>Indíce de Depressão no Brasil</h1>
+    </div>
+    
     <div id="chart-container">
         <canvas id="myChart"></canvas>
     </div>
 
     <button id="topButton" onclick="scrollToTop()">Topo</button>
+    <div class="ajuda2">
+        <div id="ajuda">
+            <h1>Procure ajuda</h1>
+        </div>
+    
+        <div class="texto-ajuda">
+            <P>A batalha contra a depressão pode ser árdua e desafiadora, mas é importante lembrar que a busca por ajuda não é sinal de fraqueza, mas sim de coragem e autocompaixão. A depressão é uma condição séria que afeta milhões de pessoas ao redor do mundo, e é fundamental entender que não estamos sozinhos nessa jornada, clique em cvv abaixo para obter ajuda.</P>
+        </div>
+        <div class="cvv">
+            <a href="https://cvv.org.br/" id="cvv">CVV</a>
+        </div>
+        
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
