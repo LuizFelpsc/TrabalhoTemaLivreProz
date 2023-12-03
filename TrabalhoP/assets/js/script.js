@@ -92,6 +92,9 @@ document.addEventListener('DOMContentLoaded', function () {
         updateCarousel();
     }
 
+    // Adiciona um intervalo para avançar automaticamente a cada 5 segundos
+    setInterval(nextSlide, 5000);
+
     // Adiciona ouvinte de eventos para as teclas de seta
     document.addEventListener('keydown', function (event) {
         switch (event.code) {
